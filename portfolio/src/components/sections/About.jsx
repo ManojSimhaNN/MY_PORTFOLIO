@@ -74,42 +74,61 @@ export const About = () => {
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
               <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
-                <li>
-                  <strong> B.E. in Information Science </strong> - Sri Siddhartha Institute of Technology<br></br>
-                  (2020-2024)
-                </li>
-                <li>
-                  Graduated with CGPA of 7.96
-                </li>
-              </ul>
-            </div>
-
-            <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
-              <ul className="list-disc list-inside text-gray-300 space-y-2">
-                <li>
+                <hr />
+                <div>
+                  <li>
+                    <strong> B.E. in Information Science </strong> - Sri Siddhartha Institute of Technology<br></br>
+                    (2020-2024)
+                  </li>
+                  <li>
+                    Graduated with CGPA of 7.96
+                  </li>
+                </div>
+                <hr/>
+                <div>
+                  <li>
                   <strong> 12th in PCMCs </strong> - Sarvodaya PU College <br></br>
                   (2019-2020)
                 </li>
                 <li>
                   Graduated with a percentage of 74.67
                 </li>
-              </ul> 
+                </div>
+                <hr/>
+                <div>
+                  <li>
+                    <strong> 10th</strong> - Maruthi Vidya Kendra <br></br>
+                    (2017-2018)
+                  </li>
+                  <li>
+                    Graduated with a percentage of 75.68
+                  </li>
+                </div>
+                  
+              </ul>
             </div>
-
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
-              <ul className="list-disc list-inside text-gray-300 space-y-2">
-                <li>
-                  <strong> 10th</strong> - Maruthi Vidya Kendra <br></br>
-                  (2017-2018)
-                </li>
-                <li>
-                  Graduated with a percentage of 75.68
-                </li>
-              </ul> 
+              <h3 className="text-xl font-bold mb-4"> 💼 Work Experience </h3>
+              <div className="space-y-4 text-gray-300">
+                <hr/>
+                <div>
+                  <h4 className="font-semibold">
+                    {" "}
+                    App Development Intern at Acelucid Technologies<br></br>
+                    (Feb-2025 - Present){" "}
+                  </h4>
+                  <p>
+                    Assisted in building front-end components and integration
+                    REST APIs for mobile applications.
+                  </p>
+                </div>
+                <hr/>
+              </div>
             </div>
           </div>
+
+          
+
         </div>
       </RevealOnScroll>
     </section>
