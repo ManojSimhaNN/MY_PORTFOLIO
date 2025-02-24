@@ -114,7 +114,7 @@ export const About = () => {
                 <div>
                   <h4 className="font-semibold">
                     {" "}
-                    App Development Intern at Acelucid Technologies<br></br>
+                    Mobile Developer Trainee at Acelucid Technologies<br></br>
                     (Feb-2025 - Present){" "}
                   </h4>
                   <p>
